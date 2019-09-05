@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
         mImageLoader = MySingleton.getInstance(getApplication()).getImageLoader();
         //啟動QRcode掃描功能
-        //startActivity(new Intent(getApplicationContext(),ScanQrcode.class));
+        startActivity(new Intent(getApplicationContext(),ScanQrcode.class));
 
         GetJsonArray();
       //  Toast.makeText(this,NNN,Toast.LENGTH_LONG).show();
